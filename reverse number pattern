@@ -1,0 +1,19 @@
+#include<iostream>                                                                                           o:p  4444
+using namespace std;                                                                                              333
+                                                                                                                  22
+int main(){                                                                                                       1
+    int n;
+    cin>>n;
+    int i=1,j;
+    while(i<=n){
+        j=1;
+        while(j<=n-i+1){
+            cout<<n-i+1;
+            j++;
+        }
+        cout<<endl;
+        i++;
+    }
+}
+
+
